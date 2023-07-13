@@ -4,7 +4,10 @@ import 'package:http/http.dart' as http;
 import 'package:sample_project/screens/product_page.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _HomePageState createState() => _HomePageState();
 }
 
